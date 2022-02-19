@@ -455,6 +455,10 @@ img {
 .item-project:nth-child(3n) {
   margin-right: 0;
 }
+.item-project:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 /* .item-project:not(:nth-child(3n)) {
   margin-right: var(--margin-right-item);
 } */
